@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dancingscriptregular"
+            android:gravity="center_horizontal"
+            android:text="Harry Potter Quiz"
+            android:textColor="@android:color/black"
+            android:textSize="35sp" />
+
+        <TextView
+            style="@style/QuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Question 1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What was the name of the hippogriff that Harry set free in his third year?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Crustyclaw \nB. Buckbeak \nC. Flamingfeather \nD. Witherwing" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_1A"
+                style="@style/ButtonA"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button1A"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/button_1B"
+                style="@style/ButtonB"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button1B"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/button_1C"
+                style="@style/ButtonC"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button1C"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/button_1D"
+                style="@style/ButtonD"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button1D"
+                android:text="D" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answer1"
+            style="@style/answerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="" />
+
+        <TextView
+            style="@style/QuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Question 2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which of these was not a horcrux?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Gryffindor's sword \nB. Slytherin's locket \nC. Ravenclaw's diadem \nD. Hufflepuff's cup" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_2A"
+                style="@style/ButtonA"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button2A"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/button_2B"
+                style="@style/ButtonB"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button2B"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/button_2C"
+                style="@style/ButtonC"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button2C"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/button_2D"
+                style="@style/ButtonD"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button2D"
+                android:text="D" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answer2"
+            style="@style/answerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="" />
+
+        <TextView
+            style="@style/QuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Question 3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harry was invited to go and see which sporting event in his fourth year with the Weasley family?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Football match \nB. Quiddich world cup \nC. Wimbledon Tennis final \nD. The Super Bowl" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_3A"
+                style="@style/ButtonA"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button3A"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/button_3B"
+                style="@style/ButtonB"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button3B"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/button_3C"
+                style="@style/ButtonC"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button3C"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/button_3D"
+                style="@style/ButtonD"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button3D"
+                android:text="D" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answer3"
+            style="@style/answerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="" />
+
+        <TextView
+            style="@style/QuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Question 4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which house is Luna Lovegood in?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Gryffindor \nB. Slytherin \nC. Ravenclaw \nD. Hufflepuff" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_4A"
+                style="@style/ButtonA"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button4A"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/button_4B"
+                style="@style/ButtonB"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button4B"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/button_4C"
+                style="@style/ButtonC"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button4C"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/button_4D"
+                style="@style/ButtonD"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button4D"
+                android:text="D" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answer4"
+            style="@style/answerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="" />
+
+        <TextView
+            style="@style/QuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Question 5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What type of bird is Fawkes?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Blackbird  \nB. Raven \nC. Albatross \nD. Pheonix" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_5A"
+                style="@style/ButtonA"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button5A"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/button_5B"
+                style="@style/ButtonB"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button5B"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/button_5C"
+                style="@style/ButtonC"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button5C"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/button_5D"
+                style="@style/ButtonD"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button5D"
+                android:text="D" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answer5"
+            style="@style/answerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="" />
+
+        <TextView
+            style="@style/QuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Question 6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Where did Harry hide his Advanced Potion Making book?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Forbidden Forest  \nB. Hagrid's Cabin \nC. Broom Closet \nD. Room of Requirement" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_6A"
+                style="@style/ButtonA"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button6A"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/button_6B"
+                style="@style/ButtonB"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button6B"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/button_6C"
+                style="@style/ButtonC"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button6C"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/button_6D"
+                style="@style/ButtonD"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button6D"
+                android:text="D" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answer6"
+            style="@style/answerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="" />
+
+        <TextView
+            style="@style/QuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Question 7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who did Harry go to the Yule Ball with?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Pansy Parkinson  \nB. Parvati Patil \nC. Cho Chang \nD. Padma Patil" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_7A"
+                style="@style/ButtonA"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button7A"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/button_7B"
+                style="@style/ButtonB"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button7B"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/button_7C"
+                style="@style/ButtonC"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button7C"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/button_7D"
+                style="@style/ButtonD"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button7D"
+                android:text="D" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answer7"
+            style="@style/answerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="" />
+        <TextView
+            style="@style/QuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Question 8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which spell saved Harry when he duelled Voldermort in his fourth year?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Expelliarmus  \nB. Wingardium Leviosa \nC. Stupify \nD. Avada Kedavra" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_8A"
+                style="@style/ButtonA"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button8A"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/button_8B"
+                style="@style/ButtonB"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button8B"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/button_8C"
+                style="@style/ButtonC"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button8C"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/button_8D"
+                style="@style/ButtonD"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button8D"
+                android:text="D" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answer8"
+            style="@style/answerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="" />
+        <TextView
+            style="@style/QuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Question 9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="At what age does a witch or wizard become 'Of Age'?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. 18  \nB. 21 \nC. 17 \nD. 25" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_9A"
+                style="@style/ButtonA"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button9A"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/button_9B"
+                style="@style/ButtonB"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button9B"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/button_9C"
+                style="@style/ButtonC"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button9C"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/button_9D"
+                style="@style/ButtonD"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button9D"
+                android:text="D" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answer9"
+            style="@style/answerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="" />
+
+        <TextView
+            style="@style/QuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Question 10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Where did Harry, Ron and Hermione find Hufflepuff's cup?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Room of Requirement  \nB. Bellatrix's vault \nC. In the mirror of Erised \nD. Vault 713" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_10A"
+                style="@style/ButtonA"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button10A"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/button_10B"
+                style="@style/ButtonB"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button10B"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/button_10C"
+                style="@style/ButtonC"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button10C"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/button_10D"
+                style="@style/ButtonD"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button10D"
+                android:text="D" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answer10"
+            style="@style/answerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="" />
+
+        <TextView
+            style="@style/QuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Question 11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who teaches transfiguration?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Professor McGonagall  \nB. Professor Snape \nC. Professor Flitwick \nD. Professor Sprout" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_11A"
+                style="@style/ButtonA"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button11A"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/button_11B"
+                style="@style/ButtonB"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button11B"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/button_11C"
+                style="@style/ButtonC"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button11C"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/button_11D"
+                style="@style/ButtonD"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button11D"
+                android:text="D" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answer11"
+            style="@style/answerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="" />
+
+        <TextView
+            style="@style/QuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Question 12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who kills Dumbledore?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Draco Malfoy  \nB. Bellatrix Lestrange \nC. Severus Snape \nD. Lord Voldemort" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_12A"
+                style="@style/ButtonA"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button12A"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/button_12B"
+                style="@style/ButtonB"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button12B"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/button_12C"
+                style="@style/ButtonC"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button12C"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/button_12D"
+                style="@style/ButtonD"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:onClick="button12D"
+                android:text="D" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answer12"
+            style="@style/answerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/quiz_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>
