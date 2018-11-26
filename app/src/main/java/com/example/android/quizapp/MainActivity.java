@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     int score = 0;
 
     public void button1A(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer1("Incorrect! Answer = B");
         deactivateButton1();
@@ -31,13 +30,11 @@ public class MainActivity extends AppCompatActivity {
         deactivateButton1();
     }
     public void button1C(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer1("Incorrect! Answer = B");
         deactivateButton1();
     }
     public void button1D(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer1("Incorrect! Answer = B");
         deactivateButton1();
@@ -50,26 +47,22 @@ public class MainActivity extends AppCompatActivity {
         deactivateButton2();
     }
     public void button2B(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer2("Incorrect! Answer = A");
         deactivateButton2();
     }
     public void button2C(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer2("Incorrect! Answer = A");
         deactivateButton2();
     }
     public void button2D(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer2("Incorrect! Answer = A");
         deactivateButton2();
     }
 
     public void button3A(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer3("Incorrect! Answer = B");
         deactivateButton3();
@@ -81,26 +74,22 @@ public class MainActivity extends AppCompatActivity {
         deactivateButton3();
     }
     public void button3C(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer3("Incorrect! Answer = B");
         deactivateButton3();
     }
     public void button3D(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer3("Incorrect! Answer = B");
         deactivateButton3();
     }
 
     public void button4A(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer4("Incorrect! Answer = C");
         deactivateButton4();
     }
     public void button4B(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer4("Incorrect! Answer = C");
         deactivateButton4();
@@ -112,26 +101,22 @@ public class MainActivity extends AppCompatActivity {
         deactivateButton4();
     }
     public void button4D(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer4("Incorrect! Answer = C");
         deactivateButton4();
     }
 
     public void button5A(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer5("Incorrect! Answer = D");
         deactivateButton5();
     }
     public void button5B(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer5("Incorrect! Answer = D");
         deactivateButton5();
     }
     public void button5C(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer5("Incorrect! Answer = D");
         deactivateButton5();
@@ -143,19 +128,16 @@ public class MainActivity extends AppCompatActivity {
         deactivateButton5();
     }
     public void button6A(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer6("Incorrect! Answer = D");
         deactivateButton6();
     }
     public void button6B(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer6("Incorrect! Answer = D");
         deactivateButton6();
     }
     public void button6C(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer6("Incorrect! Answer = D");
         deactivateButton6();
@@ -167,7 +149,6 @@ public class MainActivity extends AppCompatActivity {
         deactivateButton6();
     }
     public void button7A(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer7("Incorrect! Answer = B");
         deactivateButton7();
@@ -179,13 +160,11 @@ public class MainActivity extends AppCompatActivity {
         deactivateButton7();
     }
     public void button7C(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer7("Incorrect! Answer = B");
         deactivateButton7();
     }
     public void button7D(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer7("Incorrect! Answer = B");
         deactivateButton7();
@@ -197,31 +176,26 @@ public class MainActivity extends AppCompatActivity {
         deactivateButton8();
     }
     public void button8B(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer8("Inorrect! Answer = A");
         deactivateButton8();
     }
     public void button8C(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer8("Incorrect! Answer = A");
         deactivateButton8();
     }
     public void button8D(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer8("Incorrect! Answer = A");
         deactivateButton8();
     }
     public void button9A(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer9("Incorrect! Answer = C");
         deactivateButton9();
     }
     public void button9B(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer9("Incorrect! Answer = C");
         deactivateButton9();
@@ -233,13 +207,11 @@ public class MainActivity extends AppCompatActivity {
         deactivateButton9();
     }
     public void button9D(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer9("Incorrect! Answer = C");
         deactivateButton9();
     }
     public void button10A(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer10("Incorrect! Answer = B");
         deactivateButton10();
@@ -251,13 +223,11 @@ public class MainActivity extends AppCompatActivity {
         deactivateButton10();
     }
     public void button10C(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer10("Incorrect! Answer = B");
         deactivateButton10();
     }
     public void button10D(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer10("Incorrect! Answer = B");
         deactivateButton10();
@@ -269,31 +239,26 @@ public class MainActivity extends AppCompatActivity {
         deactivateButton11();
     }
     public void button11B(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer11("Incorrect! Answer = A");
         deactivateButton11();
     }
     public void button11C(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer11("Incorrect! Answer = A");
         deactivateButton11();
     }
     public void button11D(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer11("Incorrect! Answer = A");
         deactivateButton11();
     }
     public void button12A(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer12("Incorrect! Answer = C");
         deactivateButton12();
     }
     public void button12B(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer12("Incorrect! Answer = C");
         deactivateButton12();
@@ -305,7 +270,6 @@ public class MainActivity extends AppCompatActivity {
         deactivateButton12();
     }
     public void button12D(View view) {
-        score = score + 0;
         displayScore(score);
         displayAnswer12("Incorrect! Answer = C");
         deactivateButton12();
